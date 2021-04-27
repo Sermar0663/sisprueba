@@ -1,0 +1,111 @@
+CRITICAL - 2021-04-25 06:54:57 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\pos\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\pos\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-04-25 21:28:47 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\pos\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\pos\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-04-25 21:41:09 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\sisprueba\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\sisprueba\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-04-25 18:30:26 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:32:12 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:32:13 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:33:27 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:33:28 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:33:29 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:33:33 --> Invalid file: Productos/listausuarios.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/lista...')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Productos/lista...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 18:33:36 --> Invalid file: Productos/listausuarios.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/lista...')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Productos/lista...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 18:36:33 --> Invalid file: Productos/listausuarios.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/lista...')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Productos/lista...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 18:36:34 --> Invalid file: Productos/listausuarios.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/lista...')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Productos/lista...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 18:36:41 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:41:21 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:41:22 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:41:22 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:41:23 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:41:23 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 18:41:24 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-25 19:06:13 --> Invalid file: Productos/listausuarios.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/lista...')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Productos/lista...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 20:46:20 --> Invalid file: listar.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listar.php')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('listar', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('listar')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

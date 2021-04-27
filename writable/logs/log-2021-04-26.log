@@ -1,0 +1,911 @@
+CRITICAL - 2021-04-26 02:14:48 --> Invalid file: listar.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listar.php')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('listar', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('listar')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:18:21 --> Invalid file: Productos/listar.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/lista...')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Productos/lista...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:41:42 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:42:16 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:42:17 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:42:17 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:42:22 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:42:23 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:42:24 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:43:10 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:47:09 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:48:04 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:05 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:19 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:20 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:21 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:21 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:21 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:22 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:22 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 02:48:30 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:50:54 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:50:57 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:50:57 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:50:58 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:50:58 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:52:15 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 02:52:56 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 03:05:02 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 03:06:40 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 03:06:44 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 05:21:50 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 05:22:19 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-26 05:23:57 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-26 05:31:47 --> Cannot declare class App\Controllers\Productos because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-26 05:40:26 --> Cannot declare class App\Controllers\Producto because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-26 06:17:22 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 06:34:07 --> syntax error, unexpected token "%"
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(13): view('Productos/lista...', Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 06:34:46 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(13): view('Productos/lista...', Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 06:34:49 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(13): view('Productos/lista...', Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 06:34:50 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(13): view('Productos/lista...', Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 06:58:05 --> Undefined constant "encabezado"
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#3 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(16): view('Productos/lista...', Array)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-26 07:02:36 --> Undefined constant "encabezado"
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#3 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(16): view('Productos/lista...', Array)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-26 07:03:57 --> Undefined constant "head"
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#3 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(16): view('Productos/lista...', Array)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-26 07:08:52 --> Undefined constant "foot"
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#3 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(16): view('Productos/lista...', Array)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-26 07:20:36 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Productos/lista...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 07:24:45 --> Invalid file: Prodctos/crear.php
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Prodctos/crear....')
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Prodctos/crear', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(22): view('Prodctos/crear')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->crear()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 07:33:37 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/crear', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(22): view('Productos/crear')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->crear()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 07:33:51 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/crear', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(22): view('Productos/crear')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->crear()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 07:36:13 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/crear', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(22): view('Productos/crear')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->crear()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 07:36:47 --> Undefined variable $productos
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\crear.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/crear', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(26): view('Productos/crear', Array)
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->crear()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 07:47:42 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/crear', Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(26): view('Productos/crear', Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->crear()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:16:53 --> Undefined variable $nombre_articulo
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 09:24:55 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:26:15 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(41): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:34:31 --> Undefined variable $nombre_articulo
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 09:35:20 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(49): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:35:23 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(49): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:38:59 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(49): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:39:49 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(49): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:42:19 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(50): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:45:20 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:45:27 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:45:37 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:50:20 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:50:23 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:50:46 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:51:20 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:51:23 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:51:25 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:53:41 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:54:44 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 09:58:04 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(51): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:13:30 --> Undefined array key 1
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 10:14:29 --> Undefined array key 2
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 10:15:06 --> Undefined array key "altu"
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 10:15:19 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(51): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:31:43 --> There is no data to insert.
+#0 C:\xampp\htdocs\sisprueba\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\sisprueba\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(51): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:41:52 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:42:28 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:42:32 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:45:03 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:45:05 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 10:51:01 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 11:03:02 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 11:05:41 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 11:08:32 --> Undefined variable $nombre_articulo
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 11:17:28 --> date() expects at least 1 argument, 0 given
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(17): date()
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 11:29:41 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 11:30:10 --> Call to undefined function App\Controllers\getvar()
+#0 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-26 12:00:42 --> Undefined variable $datos
+#0 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->grabar()
+#2 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 12:11:53 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\listar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(16): view('Productos/lista...', Array)
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 12:13:37 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\listar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(16): view('Productos/lista...', Array)
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 12:13:38 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sisprueba\app\Views\Productos\listar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Productos/lista...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Productos.php(16): view('Productos/lista...', Array)
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 12:26:03 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 12:44:49 --> syntax error, unexpected variable "$id", expecting "," or ";"
+#0 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sisprueba\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-26 13:21:56 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 13:44:19 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 13:44:38 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 13:51:05 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 13:51:06 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 13:51:07 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 13:57:28 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-26 19:42:10 --> Undefined variable $head
+#0 C:\xampp\htdocs\sisprueba\app\Views\Proveedores\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\sisprueba\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sisprueba\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sisprueba\system\Common.php(1217): CodeIgniter\View\View->render('Proveedores/lis...', Array, true)
+#4 C:\xampp\htdocs\sisprueba\app\Controllers\Home.php(9): view('Proveedores/lis...')
+#5 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sisprueba\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sisprueba\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
